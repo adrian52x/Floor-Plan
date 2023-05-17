@@ -8,6 +8,10 @@
     import VAT83A_4 from "../../../../components/Floors/VAT83A_4.svelte";
     import SidebarFloors from "../../../../components/Sidebar_floors.svelte";
 
+    import VAT83A_test from "../../../../components/Floors/VAT83A_test.svelte";
+
+
+
     onMount(() => {
         setTimeout(() => {
         window.scrollTo(0, document.body.scrollHeight || document.documentElement.scrollHeight);
@@ -60,7 +64,10 @@
                 <VAT83A_0/>
                     
             {:else if selectedFloor === "3"}
-                <VAT83A_3/>
+
+                    <VAT83A_test/>
+                   
+                
 
             {:else if selectedFloor === "4"}
                 <VAT83A_4/>    

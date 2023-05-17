@@ -31,9 +31,21 @@ let desks = Array.from({ length: 197 }, (_, i) => i + 1);
 let meetingRooms = [ 19, 20, 21, 22, 23, 24, 25, 31, 32, 33, 34, 35, 38, 47, 48, 49]
 
 
+let scale = 1;
+
+function zoomIn() {
+  scale += 0.1;
+}
+
+function zoomOut() {
+  scale -= 0.1;
+}
+
 </script>
 
-<div class="floor-plan">
+<div class="floor-plan" style="transform: scale({scale})">
+  <button on:click={zoomIn}>Zoom In</button>
+  <button on:click={zoomOut}>Zoom Out</button>
     <div id="group"/>
 
 

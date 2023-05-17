@@ -1,11 +1,13 @@
 <script>
-
 </script>
 
 <div class="floor-plan">
 
-    <div class="no-data font-digits px-4 py-2 ml-80 rounded-md text-xl font-semibold bg-gray-200 w-fit"> No data</div>
+    <div class="no-data font-digits px-4 py-2 ml-80 rounded-md text-xl font-semibold bg-gray-200 w-fit"> No data</div> 
+    
+
 </div>
+
 
 
 <style>
@@ -21,5 +23,6 @@
     margin-left: 20%;
     margin-top: 20%
   }
+
 </style>
 
