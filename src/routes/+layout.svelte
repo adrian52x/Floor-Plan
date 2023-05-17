@@ -23,7 +23,7 @@
 <style>
 
   .grid {
-    margin-left: 60px;
+    margin-left: 75px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
